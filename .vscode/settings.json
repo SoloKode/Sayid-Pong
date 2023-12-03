@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Pong-like Game.sln"
+    "dotnet.defaultSolution": "Sayid-Pong.sln"
 }
