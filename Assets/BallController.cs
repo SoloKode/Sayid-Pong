@@ -17,4 +17,7 @@ public class BallController : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         rigid.velocity = speed;
     }
+    public void ActivatePUSpeedUp(float magnitude){
+        rigid.velocity *= magnitude;
+    }
 }
